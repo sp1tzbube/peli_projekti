@@ -1,21 +1,23 @@
 <!DOCTYPE html>
 <html lang="fi">
 <head>
-    <link real="styelsheet" href="style.css"
+    <link rel="stylesheet" href="style.css">
     <script src="main.js"></script>
-    <title>Peli</title>
+    <title>Moomin Runner</title>
 </head>
+<main class="app"></main>
 <body>
     <!-- Start menu -->
-    <div id=" start-menu">
-        <h1>Hyppylli</h1>
-        <button id="start-button">Aloita peli</button>
-        <!-- Pelinäkymä -->
-        <div id="game"></div>
-        <p id="score">Pisteet: </p>
-        <p id="elemät">Elemät: 3</p>
-    </div>
-    <div id="player"></div>
-    <div id="viholliset"></div>
+    <section id=" start-screen" class="screen active">
+        <form id ="start-form">
+            <label for="player-name">Pelaajan nimi:</label>
+            <input type="text" id="player-name" maxlength="15" required>
+            <button type="submit">Play</button>
+        </form>
+        <p class="hint">Space/ = hyppää </p>
+        <h2>Top 10</h2>
+        <ol id="leaderbord"></ol>
+    </section>
+    
 </body>
 </html>
