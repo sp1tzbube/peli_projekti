@@ -1,4 +1,4 @@
-#Ohjelmisto 2 Peliprojekti
+# Ohjelmisto 2 Peliprojekti
 
 ## 🎯 Peli-idea ja tavoite
 

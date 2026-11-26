@@ -18,6 +18,19 @@
         <h2>Top 10</h2>
         <ol id="leaderbord"></ol>
     </section>
-    
+    <!-- Game screen ---->
+     <section id="game-section" class="screen">
+        <p>Score: <strong id="score">0</strong></p>
+        <canvas id="game-canvas" width="800" height="600"></canvas>
+     </section>
+     <!-- Game over screen----->
+      <section id="over-screen" class="screen">
+        <h2>Game over</h2>
+        <p>Your Score: <strong id="final-score">0</strong></p>
+        <button id="restart-button">Play Again</button>
+        <button id="menu-btn" type="button">Menu</button>
+      </section>
+    <script type="module" scr="{{url_for('static', filename='js/main.js')}}">
+    </script>
 </body>
 </html>
