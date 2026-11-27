@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #e8f4fb;
+  color: #2b3a42;
+}
+
+.app {
+  max-width: 920px;
+  margin: 0 auto;
+  padding: 16px;
+  text-align: center;
+}
+
+h1 {
+  color: #2c5f80;
+}
+
+/* Only the active screen is visible */
+.screen {
+  display: none;
+}
+
+.screen.active {
+  display: block;
+}
+
+input,
+button {
+  padding: 8px 14px;
+  font-size: 1rem;
+  border-radius: 6px;
+}
+
+input {
+  border: 1px solid #8ec5e6;
+}
+
+button {
+  border: none;
+  background: #3a7ca5;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #2c5f80;
+}
+
+.hint {
+  color: #6b7c85;
+}
+
+#leaderboard {
+  display: inline-block;
+  text-align: left;
+}
+
+canvas {
+  width: 100%;
+  height: auto;
+  background: #cfe8f6;
+  border-radius: 8px;
+}
